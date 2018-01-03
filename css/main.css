@@ -1,0 +1,475 @@
+* {
+    min-width: 0;
+    min-height: 0;
+    box-sizing: border-box;
+}
+body{
+	width: 1613px;
+	height: 100%;
+	background-color: #E5E5E5;
+}
+.head{
+	width: 1613px;
+	height: 226px;
+	background: linear-gradient(180deg, #FC2828 0%, #E82020 100%);
+
+}
+/* TITLE*/
+.title{
+	width: 520px;
+	height: 95px;
+	position: absolute;
+	top: 55px;
+	left: 179px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	line-height: 42px;
+	color: white;
+}
+	.under_title{
+		width: 428px;
+		height: 30px;
+		position: absolute;
+		top: 157px;
+		left: 179px;
+		font-family: 'Roboto', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		line-height: 20px;
+		font-size: 24px;
+		color: #FFFFFF;
+
+	}
+/* end of TITLE*/
+/* PHONES */
+	.iphone{
+		position: absolute;
+		width: 222px;
+		height: 403px;
+		left: 718px;
+		top: 41px;
+		background: url(../img/iphone.png);
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+		.iphone_menu{
+			width: 143.3px;
+			height:  256.9px;
+			position: absolute;
+			left: 37.99px;
+			top: 70.61px;
+			background-image: url(../img/iphone_menu.jpg);
+			background-size: cover;
+		}
+
+	.white_iphone{
+		position: absolute;
+		width: 366px;
+		height: 351px;
+		left: 757px;
+		top: 19px;
+		background: url(../img/white_iphone.png);
+		background-size: cover;
+		z-index: 1;
+	}
+		.white_iphone_display{
+			position: absolute;
+			left: 103.48px;
+			top: 44.55px;
+			width: 158.49px;
+			height: 257px;
+			background: #FFFFFF;
+			border-radius: 2px;
+		}
+			.krysha_logo{
+				width: 76.25px;
+				height: 124.97px;
+				position: absolute;
+				left: 41.39px;
+				top: 68.46px;
+				background-image: url(../img/index.png);
+				background-size: cover;
+			}
+
+	.samsung{
+		position: absolute;
+		width: 384px;
+		height: 369px;
+		left: 876px;
+		top: 38px;
+		background: url(../img/samsung.png);
+
+	}
+		.samsung_menu{
+			width: 162px;
+			height: 290px;
+			position: absolute;
+			top: 64px;
+			left: 134px;
+			background-image: url('../img/samsung_menu.png');
+			background-size: cover;
+		}
+/* end of PHONES */
+
+.google_play{
+	position: absolute;
+	width: 238px;
+	height: 91.63px;
+	left: 1237px;
+	top: 36px;
+	background: url(../img/google_play.png);
+	background-size: cover;
+}
+.app_store{
+	position: absolute;
+	width: 207.42px;
+	height: 61.57px;
+	left: 1252.47px;
+	top: 136.43px;
+	background: url(../img/app_store.png);
+	background-size: cover;
+
+}
+
+/* Navigation part */
+.navigation_part{
+	width:1613px;
+	height: 130px;
+	background-color: white;
+	position: absolute;
+	z-index: 1;
+}
+	.user_part{
+		width: 100%;
+		height: 52px;
+		border-bottom: 1px solid lightgrey;
+	}
+		.login_part{
+			width: 197px;
+			height: 52px;
+			position: absolute;
+			left: 1367px;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+			.login_icon{
+				width: 43px;
+				height: 43px;
+				font-size: 20px;
+				color: red;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.login{
+				width: 145px;
+				height: 43px;
+				font-family: 'Roboto', sans-serif;
+				font-size: 15px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.krysh_logo {
+				background-color: rgb(255, 0, 0);
+				width: 193px;
+				height: 42px;
+				z-index: 6;
+				}
+	.navigation_block{
+		width: 1613px;
+		height: 78px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+		.navigation_block_flex{
+			width: 97%;
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+			.krysha_logo_second{
+				width: 250px;
+				height: 100%;
+				background-image: url(../img/logo.png);
+				background-size: 90%;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			li, a{
+				color: black;
+				font-family: Roboto;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-size: 18px;
+			}
+			.navigation_menu{
+				width: 800px;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+			}
+				.button{
+					width: 130px;
+					height: 40px;
+					background-color: #fd3232;
+					border-radius: 4px;
+					color: #fff;
+				}
+		.krysha_logotype{
+			width: 193px;
+			height: 42px;
+			border: 1px solid black;
+			background-image: url(../img/krysha.kg.png);
+			background-size: 95%;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-left: 40px;
+		}
+		.list{
+			width: 745px;
+			height: 100%;
+			border: 1px solid purple;
+			margin-right: 53px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 15px;
+			color: black;
+		}
+/* end of Navigation part */
+
+/*BODY part*/
+.block{
+	position: absolute;
+	top: 356px;
+	left: 0;
+	width: 1613px;
+	height: 464px;
+	background-image: url(../img/background.png);
+	background-position: center;
+	background-size: cover;
+}
+	.block_title{
+		width: 622px;
+		height: 74px;
+		position: absolute;
+		top: 139px;
+		left: 80px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		font-size: 30px;
+		text-transform: uppercase;
+		color: #000000;
+	}
+	.block_description{
+		width: 530px;
+		height: 88px;
+		position: absolute;
+		top: 239px;
+		left: 80px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		line-height: normal;
+		font-size: 20px;
+		color: #000000;
+
+	}
+/*end of BODY part*/
+/*SLider part*/
+.slider_title{
+	position: absolute;
+	top: 899px;
+	left: 88px;
+	width: 332px;
+	height: 47px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 40px;
+	color: #000000;
+}
+.main_complex{
+	width: 356px;
+	height: 642px;
+	position: absolute;
+	top: 1001px;
+	left: 88px;
+	background-image: url(../img/main_complex_bg.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+	.complex_description{
+		background-color: white;
+		width: 357px;
+		height: 133px;
+
+	}
+	.complex_content{
+		width: 1160px;
+		height: 644px;
+		position: absolute;
+		top: 1001px;
+		left: 461px;
+	}
+		.sliders{
+
+			width: 345px;
+			height: 644px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+			.slider_blocks{
+				width: 345px;
+				height: 321px;
+				display: flex;
+				justify-content: flex-start;
+				flex-direction: column;
+				align-items: center;
+			}
+				.complex_content_img{
+					width: 345px;
+					height: 180px;
+				}
+					#first_home{
+						background-image: url(../img/francuzckiy_kvartal.jpg);
+						background-size: cover;
+					}
+					#second_home{
+						background-image: url(../img/elitehouse.jpg);
+						background-size: cover;
+					}
+					#third_home{
+						background-image: url(../img/altynhouse.jpg);
+						background-size: cover;
+					}
+					#forth_home{
+						background-image: url(../img/grand_home.jpg);
+						background-size: cover;
+					}
+					#fifth_home{
+						background-image: url(../img/featured_develop.jpg);
+						background-size: cover;
+					}
+					#sixth_home{
+						background-image: url(../img/featured_develop2.jpg);
+						background-size: cover;
+					}
+					#seventh_home{
+						background-image: url(../img/altynhouse.jpg);
+						background-size: cover;
+					}
+					#nine_home{
+						background-image: url(../img/grand_home.jpg);
+						background-size: cover;
+					}
+					.elite_house_logo{
+						width: 80px;
+						height: 80px;
+						background-color: white;
+						border-radius: 5px;
+						position: relative;
+						top: 87px;
+						left: 15px;
+						background-image: url(../img/elite_house.jpg);
+						background-size: 97%;
+						background-position: center;
+						background-repeat: no-repeat;
+					}
+					.complex_content_description{
+						background-color: white;
+						width: 345px;
+						height: 133px;
+						position: absolute;
+					}
+						.complex_content_title{
+							width: 289px;
+							height: 29px;
+							position: absolute;
+							top: 29px;
+							left: 24px;
+							font-family: Roboto;
+							font-style: normal;
+							font-weight: 500;
+							line-height: normal;
+							font-size: 24px;
+							color: #000000;
+						}
+						.complex_content_year_number{
+							width: 36px;
+							height: 17px;
+							position: absolute;
+							top: 67px;
+							left: 24px;
+							font-family: Roboto;
+							font-style: normal;
+							font-weight: normal;
+							line-height: normal;
+							font-size: 15px;
+							color: #000000;
+
+						}
+
+						.complex_content_year{
+							width: 36px;
+							height: 17px;
+							position: absolute;
+							top: 89px;
+							left: 24px;
+							font-family: Roboto;
+							font-style: normal;
+							font-weight: normal;
+							line-height: normal;
+							font-size: 15px;
+							color: #000000;
+						}
+
+						.number_of_flats{
+							width: 36px;
+							height: 17px;
+							position: absolute;
+							top: 67px;
+							left: 120px;
+							font-family: Roboto;
+							font-style: normal;
+							font-weight: normal;
+							line-height: normal;
+							font-size: 15px;
+							color: #000000;
+						}
+						.flats{
+							width: 94px;
+							height: 17px;
+							position: absolute;
+							top: 89px;
+							left: 120px;
+							font-family: Roboto;
+							font-style: normal;
+							font-weight: normal;
+							line-height: normal;
+							font-size: 15px;
+							color: #000000;
+						}
+				.slider_block{
+					background-color: grey;
+					width: 345px;
+					height: 312px;
+				}
+/*end of SLider part*/
+
+
